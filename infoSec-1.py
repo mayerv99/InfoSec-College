@@ -10,7 +10,7 @@ def runApp():
     elif option == "d":
         print(decrypt(entryText, key))
     else: 
-        print('Insert an valid option')
+        print('Insert a valid option')
         runApp()
 
 
