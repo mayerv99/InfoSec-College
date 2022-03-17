@@ -3,11 +3,11 @@
 def runApp():
     entryText = input("Insira o texto: ")
     key = input("Insira a chave: ")
-    option = input("Encrypt [E] or decrypt [D]? ")
+    option = input("Encrypt [E] or decrypt [D]? ").upper()
 
-    if option == "e":
+    if option == "E":
         print(encrypt(entryText, key))
-    elif option == "d":
+    elif option == "D":
         print(decrypt(entryText, key))
     else: 
         print('Insert a valid option')
